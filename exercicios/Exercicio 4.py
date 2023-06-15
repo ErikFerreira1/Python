@@ -1,0 +1,8 @@
+a = str(input('digite algo'))
+print(type(a))
+print('é alfabético?', a.isalpha())
+print('é númerico?', a.isnumeric())
+print('contém letras ou números', a. isalnum())
+print('está em maisculo?', a.isupper())
+print('está em menusculo?', a.islower())
+print('está captalizado?', a.istitle())
